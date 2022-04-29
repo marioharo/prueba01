@@ -1,0 +1,213 @@
+*{margin:0;padding:0;list-style:none;text-decoration:none;box-sizing:border-box;}
+.contenedor{width:100%;height:auto;margin:auto;position:relative;display:table;}
+.fila{height:auto;clear:both;font-family:'Arial';}
+h3 h5{font-weight:lighter;color:#333;float:left;}
+hr{color:#d0d0d0;}
+[class*="col-"]{float:left;}
+/*Sección 1*/
+header{margin:0 auto 10px;display:table;width:100%;}
+#logo{padding: 0 90px;}
+#carrito{padding:20px 30px 0;text-align:center;color:grey;font-size:12px;}
+#carrito h3{font-size:16px;line-height:20px;}
+#phone{padding:20px 0 0;color:grey;}
+#phone h3{font-size:18px;line-height:20px;}
+#lupa{padding:30px 0 0 120px;float:right;}
+#lupa img{width:16px;height:16px;}
+
+/*Sección 2*/
+nav{width:100%;text-align:center;}
+nav ul{display:inline-block;}
+nav ul li{;padding:20px 44px;float:left;}
+nav ul li a{color:grey;font-family:-apple-system, BlinkMacSystemFont,"Segoe UI",sans-serif; font-weight:lighter;font-size:14px;}
+nav button{padding:5px 26px;border:none;background: 0;}
+nav button span{width:23px;height:3px;background:#fa03bb;margin:5px 0;display:table;border-radius:1px;}
+
+/*Sección 3*/
+#carouser{margin:0 auto 50px;}
+/*Seccion 4*/
+#seccion4{margin:auto;display:table;}
+#seccion4 li{background:#eee;text-align:center;margin:10px 15px;padding:20px 40px;width:auto;height:auto;}
+#seccion4 li img{}
+#seccion4 li#flatoffer{padding:0;background:url(../images/11.jpg);width:540px;height:400px;}
+#seccion4 li#flatoffer h3{font-weight:200;color:white;background:rgba(250, 3, 187, 0.5);font-size:70px;margin:140px 0 0;padding:20px 0;}
+#seccion4 li h3{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;font-size:20px;font-weight:lighter;color:#F802BB;margin:10px 0;}
+#seccion4 li h5{font-size:20px;color:black;margin:15px 0;}
+#seccion4 li a{background:#403b37;color:white;font-size:13px;border-radius:4px;padding:5px 13px;}
+#seccion4 li a:hover{background:#F802BB;}
+
+/*Seccion5*/
+#seccion5{margin:60px auto;display:table;text-align: center;}
+#seccion5 ul li{padding:0;margin:0 auto;display:inline-block;}
+
+/*Seccion 6* igual a la Seccion 4/
+
+/*Seccion 7*/
+#seccion7{margin:0 auto 20px;width:auto;display:table;}
+#seccion7 div{padding:30px 164px;width:auto;}
+#seccion7 h3{font-family:'Poiret One',cursive;font-size:2em;color:#fa03bb;}
+#seccion7 ul{padding:0;}
+#seccion7 ul li{display:inline-block;}
+#seccion7 ul li i{background:url(../images/img-sprite.png) no-repeat -8px -64px;width:47px;height:47px;display:inline-block;margin:0 5px 0;}
+#seccion7 ul li i.twitter{background-position:-64px -64px;}
+#seccion7 ul li i.googleplus{background-position:-176px -64px;}
+#seccion7 ul li i.instagram{background-position:-121px -64px;}
+#seccion7 input{display:inline-block;float:left;}
+#seccion7 input[type="text"]{width:200px;height:40px;}
+#seccion7 input[type="submit"]{width:100px;height:39px;background:#403b37;color:white;font-size:14px;border:0;}
+#seccion7 ul li i:hover{background-position:-8px -8px;}
+#seccion7 ul li i.twitter:hover{background-position:-64px -8px;}
+#seccion7 ul li i.googleplus:hover{background-position:-176px -8px;}
+#seccion7 ul li i.instagram:hover{background-position:-121px -8px;}
+
+/*Seccion 8*/
+footer{width:100%;background:#252323;}
+footer div{width:auto;display:table;margin:0 auto;padding:30px 50px;}
+footer ul{margin-bottom:30px;}
+footer ul li{line-height:30px;font-size:13px;color:#B2B2B2;}
+footer ul li h4{color:#fa03bb;padding:0 0 30px;font-family:'Poiret One', cursive;font-size:28px;}
+footer ul li a{color:#B2B2B2;}
+footer div p{text-align:center;margin:0 0 20px;color:#B2B2B2;}
+footer p span{color:#fa03bb;}
+
+/*Pantalla Grande*/
+@media(min-width:1200px)
+{
+    .col-lg-12{width:100%;}
+    .col-lg-11{width:91.66666667%}
+    .col-lg-10{width:83.33333333%}
+    .col-lg-9{width:75%}
+    .col-lg-8{width:66.66666667%}
+    .col-lg-7{width:58.33333333%;}
+    .col-lg-6{width:50%}
+    .col-lg-5{width:41.66666667%}
+    .col-lg-4{width:33.33333333%}
+    .col-lg-3{width:25%}
+    .col-lg-2{width:16.66666667%}
+    .col-lg-1{width:8.33333333%}
+    .col-lg-0{display:none;}
+}
+/*Pantalla Media*/
+@media(max-width:1199px) and (min-width:992px)
+{
+    .col-md-12{width:100%}
+    .col-md-11{width:91.66666667%}
+    .col-md-10{width:83.33333333%}
+    .col-md-9{width:75%}
+    .col-md-8{width:66.66666667%}
+    .col-md-7{width:58.33333333%}
+    .col-md-6{width:50%}
+    .col-md-5{width:41.66666667%}
+    .col-md-4{width:33.33333333%}
+    .col-md-3{width:25%}
+    .col-md-2{width:16.66666667%}
+    .col-md-1{width:8.33333333%}
+    .col-md-0{display:none;}
+
+    #logo{padding-left:70px;}
+    #carrito{padding:15px 0 0 10px;}
+    #carrito p{font-size:12px;}
+    #phone{padding-left:90px;}
+    #lupa{padding:25px 0 0 10px;}
+    #seccion4 li{padding:20px 10px;}
+    #seccion4 li img{width:96%;height:96%;}
+    #seccion4 li h3{font-size:17px;}
+    #seccion4 li#flatoffer{width:440px;height:390px;}
+    #seccion4 li#flatoffer h3{width:100%;height:40%;font-size:60px;padding:10px 0;}
+    #seccion5{margin:60px 40px;}
+    #seccion5 ul li a img{width:100%;height:100%;}
+    #seccion7 div{padding:30px 110px;}
+    footer ul li h4{font-size:24px;}
+
+}
+/*Pantalla Tablet*/
+@media(max-width:991px) and (min-width:768px)
+{
+    .col-sm-12{width:100%}
+    .col-sm-11{width:91.66666667%}
+    .col-sm-10{width:83.33333333%}
+    .col-sm-9{width:75%}
+    .col-sm-8{width:66.66666667%}
+    .col-sm-7{width:58.33333333%}
+    .col-sm-6{width:50%}
+    .col-sm-5{width:41.66666667%}
+    .col-sm-4{width:33.33333333%}
+    .col-sm-3{width:25%}
+    .col-sm-2{width:16.66666667%}
+    .col-sm-1{width:8.33333333%}
+    .col-sm-0{display:none;}
+
+    #logo{padding:0 10px;}
+    #carrito{padding:15px 0 0 50px;}
+    #carrito h3{font-size:18px;}
+    #phone{padding-left:50px;font-size:15px;}
+    #phone h3{font-size:15px;}
+    #lupa{padding:30px 0 0 10px;}
+    nav ul li{padding:18px 30px;}
+    #carouser {margin-bottom:30px;width:100%;}
+    #seccion4 li{padding:15px 0;margin:10px;width:150px}
+    #seccion4 li img{width:80%;}
+    #seccion4 li h3{font-size:15px;}
+    #seccion4 li h5{font-weight:200;font-size:18px;}
+    #seccion4 li a{display:block;margin:0 auto;width:60%;line-height:20px;padding:5px 20px;}
+    #seccion4 li#flatoffer{width:365px;height:337px;}
+    #seccion4 li#flatoffer h3{font-size:50px;margin:130px 0 0;}
+    #seccion5{margin:30px 20px;}
+    #seccion5 ul li a img{width:100%;}
+    #seccion7 div{padding:20px 50px 10px;}
+    #seccion7 h3{font-size:23px;}
+    #seccion7 input[type="text"]{width:160px;}
+    #seccion7 input[type="submit"]{width:70px;font-size:10px;margin:0 5px;}
+    footer div{padding:30px;}
+    footer div ul{margin-bottom:25px;}
+    footer div ul li img{width:23px;height:23px;}
+    footer div ul li h4{font-size:23px;padding-bottom:10px;}
+    footer div ul li a{font-size:12px;}
+    footer div p{font-size:12px;margin:0 auto 10px;}
+    
+}
+/*Pantalla Celular*/
+@media(max-width:767px)
+{
+    .col-xs-12{width:100%}
+    .col-xs-11{width:91.66666667%}
+    .col-xs-10{width:83.33333333%}
+    .col-xs-9{width:75%}
+    .col-xs-8{width:66.66666667%}
+    .col-xs-7{width:58.33333333%}
+    .col-xs-6{width:50%}
+    .col-xs-5{width:41.66666667%}
+    .col-xs-4{width:33.33333333%}
+    .col-xs-3{width:25%}
+    .col-xs-2{width:16.66666667%}
+    .col-xs-1{width:8.33333333%}
+    .col-xs-0{display:none;}
+
+    header{margin:0 auto 5px;}
+    #logo{padding:0;}
+    #logo a{text-align: center;display: block;}
+    #carrito{padding:0 0 0 20px;text-align:left;margin: 0 0 10px}
+    #carrito h3{font-size:16px;font-weight:lighter;padding:0 0 5px 0;}
+    #carrito h3 img{width:20px;}
+    #carrito p{font-size:12px;}
+    #phone{padding:0;text-align:center;}
+    #phone h3{font-size:14px;padding:0 0 3px;font-weight:lighter;}
+    #phone p{font-size:16px;}
+    #lupa{padding:5px 0 0 85px;}
+    nav ul li{padding:15px 20px;}
+    #carouser{margin-bottom:20px;}
+    #carouser img{width: 100%;}
+    #seccion4 li{margin:10px 15px;padding:10px 0;width:150px;}
+    #seccion4 li img{width:90%;}
+    #seccion4 li h3, #seccion4 li h5{font-size:16px;}
+    #seccion4 li a{padding:5px 18px;font-size:14px;}
+    #seccion5{margin:20px auto;}
+    #seccion5 ul li{padding:5px;}
+    #seccion5 ul li img{width:95%;}
+    #seccion7 div{margin:0 auto;padding:10px 0;text-align: center;width:100%;}
+    #seccion7 div h3, #seccion7 div ul{display:table;margin:0 auto;font-size: 24px;line-height: 50px;}
+    #seccion7 input{margin-left:45px;}
+    #seccion7 input[type="text"]{width:200px;}
+    #seccion7 input[type="submit"]{margin-left:5px;}
+    footer div{padding:10px;}
+
+}
